@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Badminton form </title>
+    <style>
+         body{
+            background-image: url("https://i.pinimg.com/736x/29/b3/d7/29b3d74484665ac8ffb6fdcd26d7a55c.jpg");
+           background-image: cover;
+        }
+        h1{
+            font-size: 55px;
+            font-family:bradley hand itc;
+            text-align: center;
+           
+        }
+        #all{
+            font-size: 35px;
+            font-family: bradley hand itc;
+            color: rgb(0, 0, 0);
+            background-color: rgb(82, 209, 231);
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-weight: bold;
+            border-radius: 15px;
+            border: 3px solid rgb(140, 0, 255);
+        }
+        .student legend{
+            font-size: 27px;
+            font-family: bradley hand itc;
+            color: rgb(2, 3, 3);
+            background-color:cornsilk;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-weight: bold;
+            border-radius: 15px;
+            border: 3px solid rgb(140, 0, 255);
+        }
+        .parent legend{
+            font-size: 35px;
+            font-family:bradley hand itc;
+            color: rgb(255, 255, 255);
+            background-color: rgb(6, 6, 95);
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-weight: bold;
+            border-radius: 7px;
+            border: 3px solid rgb(140, 0, 255);
+        }
+        p{
+            font-size: 28px;
+            font-family: bradley hand itc;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            
+        }
+        #a{
+            height: 50px;
+            width: 250px;
+            background-color: rgb(108, 194, 243);
+            color: cornsilk;
+            border: 3px solid rgb(140, 0, 255);
+            border-radius: 4px;
+            font-size: 25px;
+        }
+        textarea{
+            height: 100px;
+            width: 450px;
+            background-color:  rgb(1, 1, 49);
+            color: burlywood;
+            font-size: 25px;
+            border: 3px solid palegreen;
+            
+        }
+        #val{
+            font-size: 28px;
+            font-family: bradley hand itc;
+            color: indigo;
+            font-weight: bold;
+        }
+        #b{
+            height: 20px;
+            width: 20px;
+        }
+        .drop-down{
+            height: 50px;
+            width: 400px;
+            background-color: brown;
+            color: wheat;
+            border: 3px solid palegreen;
+            border-radius: 5px;
+            font-size: 25px;
+        }
+        #sub{
+           height: 60px;
+           width: 190px;
+           font-size: 35px;
+           font-family: bradley hand itc;
+           background-color: lightblue;
+           color:black;
+           border: 2px solid wheat ;
+           border-radius: 8px;
+           font-weight: 600;
+       }
+       #res{
+           font-size: 35px;
+           background-color: lightblue;
+           color: rgb(14, 6, 4);
+           font-family: bradley hand itc;
+           border: 2px solid wheat;
+           border-radius: 8px;
+           font-weight: 600;   
+           padding-left: 35px;
+           padding-right: 35px;
+           padding-top: 7px;
+           padding-bottom: 7px;}
+
+           #res:hover{
+               color:lightcoral
+               backround-color:lightcyan;
+               box-shadow:black;
+           }
+           #sub:hover{
+               color:lightcoral
+               backround-color:lightcyan;
+               box-shadow: 5px 5px 5px black;
+           }
+    </style>
+</head>
+<body>
+    <h1>Inter-school badminton Competition </h1>
+    
+
+<fieldset class="all">
+        <legend id="all">Badminton competition Form</legend>
+
+        <fieldset class="student">
+<fieldset>
+
+    <legend> student details</legend>
+    <form>
+        <input type="text" id="a" placeholder="FIRST NAME">
+        <input type="text" id="a" placeholder="LAST NAME"> <br>
+        <p>Age</p>
+        <select class="drop-down">
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option> 15</option>
+            <option>16</option>
+        </select> <br>
+        <p> Badminton style</p>
+        <input type="checkbox" id="b"><span id="val">Singles</span> <br>
+        <input type="checkbox" id="b"><span id="val">Doubles</span> <br>
+        <p>Name of the School</p>
+        <input type="drop-down">
+            <option>School Number - 1</option>
+            <option>School Number - 2</option>
+            <option>School Number - 3</option>
+            <option>School Number - 4</option>
+            <option>School Number - 5</option>
+            <option>School Number - 6</option>
+        </select> <br>
+   </form>
+</fieldset>
+<br>
+        <fieldset class="parent">
+            <legend>Parent Details</legend>
+            <form>
+                <input type="text" id="a" placeholder="PARENT'S NAME"> <br><br>
+                <input type="number" id="a" placeholder="MOBILE NUMBER"> <br><br>
+                <input type="email" id="a" placeholder="EMAIL-ID"> <br><br>
+                <p>Address</p><textarea></textarea> <br>
+            </form>
+            
+        </fieldset> <br>
+        <form>
+ <input type="submit" value="SUBMIT" id="sub">
+ <input type="reset" value="CLEAR" id="res">
+ </form>
+    </fieldset>
+
+
+</body>
+</html>
